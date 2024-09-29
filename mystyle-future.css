@@ -26,32 +26,27 @@ header p {
 
 /* Navigation Styles */
 nav {
-    position: sticky;
-    top: 0%;
-    background-color: #ffa41b;
+    background-color: #ebdf32;
     padding: 15px;
     text-align: center;
-    float: left;
-    width: 20%;
-    height: 100vh;
 }
 
-nav  {
+nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-nav   {
-    display: block;
-    margin: 0px 15 ;
+nav ul li {
+    display: inline-block;
+    margin: 0 50px ;
 }
 
-nav    {
+nav ul li a {
     text-decoration: none;
-    color: #fff;
-    font-size: 1.1em;
-    transition: color 0.3s ease;
+    color: #000000;
+    font-size: 20px;
+    font-optical-sizing: auto;
 }
 
 nav   a:hover {
